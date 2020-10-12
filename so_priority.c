@@ -32,7 +32,7 @@
 
 typedef int (*socket_function_type)(int, int, int);
  
-/* Pointer to the actual scoket symbol. */
+/* Pointer to the actual socket symbol. */
 socket_function_type so_priority_socket = NULL;
 
 /* SO_PRIORITY value to set; can be configured using the SO_PRIORITY_VALUE environment variable. */
