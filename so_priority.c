@@ -3,7 +3,7 @@
 	Compile with: gcc -shared -ldl -fPIC so_priority.c -o so_priority.so
 	Usage: SO_PRIORITY_DEBUG=1 SO_PRIORITY_VALUE=6 LD_PRELOAD=/path/to/so_priority.so program arg1 arg2
 
-	(c) 2020 - Xavier G.
+	(c) 2020-2021 - Xavier G.
 	This program is free software. It comes without any warranty, to
 	the extent permitted by applicable law. You can redistribute it
 	and/or modify it under the terms of the Do What The Fuck You Want
